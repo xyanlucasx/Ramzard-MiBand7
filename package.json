@@ -1,0 +1,15 @@
+{
+  "name": "ramzard-miband7",
+  "version": "1.0.0",
+  "description": "Ramzard is a versatile and intuitive application designed for the Mi Band 7, providing a seamless experience for users who seek randomness in decision-making and fun activities. The name \"Ramzard\" is a fusion of \"random\" and \"haphazard,\" perfectly encapsulating the app's essence.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "zeus dev",
+    "build": "zeus build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zeppos/device-types": "^1.0.0"
+  }
+}

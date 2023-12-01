@@ -1,0 +1,103 @@
+{
+    "app": {
+      "appId": 8410707,
+      "appIdType": 0,
+      "appName": "Ramzard",
+      "appType": "app",
+      "description": "Tools to generate randomness",
+      "icon": "icons/icon.png",
+      "vender": "xyanlucasx",
+      "version": {
+        "code": 1,
+        "name": "1.0.0"
+      }
+    },
+    "configVersion": "v2",
+    "debug": false,
+    "defaultLanguage": "en-US",
+    "i18n": {
+      "pt-BR": {
+        "appName": "Ramzard"
+      },
+      "en-US": {
+        "appName": "Ramzard"
+      },
+      "ru-RU": {
+        "appName": "Рамзард"
+      },
+      "zh-CN": {
+        "appName": "拉姆扎德"
+      }
+    },
+    "targets": {
+      "band-7": {
+        "platforms":[
+          {
+            "name": "amazfit-band7",
+            "deviceSource": 253
+          },
+          {
+            "name": "amazfit-band7-w",
+            "deviceSource": 254
+          },
+          {
+            "name": "l66",
+            "deviceSource": 260
+          },
+          {
+            "name": "l66w",
+            "deviceSource": 261
+          },
+          {
+            "name": "l66_1",
+            "deviceSource": 262
+          },
+          {
+            "name": "l66w_2",
+            "deviceSource": 263
+          },
+          {
+            "name": "l66_3",
+            "deviceSource": 264
+          },
+          {
+            "name": "l66_4",
+            "deviceSource": 265
+          },
+          {
+            "name": "l66_5",
+            "deviceSource": 266
+          }
+        ],
+        "designWidth": 194,
+        "module": {
+          "page": {
+            "pages": [
+              "page/home/index",
+              "page/dice/config/index",
+              "page/dice/play/index",
+              "page/dice/historic/index",
+              "page/coin/config/index",
+              "page/coin/play/index",
+              "page/coin/historic/index",
+              "page/slot/config/index",
+              "page/slot/play/index",
+              "page/slot/historic/index",
+              "page/code/config/index",
+              "page/code/play/index",
+              "page/code/historic/index",
+              "page/conf/index"
+            ]
+          }
+        }
+      }
+    },
+    "permissions": [],
+    "runtime": {
+      "apiVersion": {
+        "compatible": "1.0.0",
+        "minVersion": "1.0.0",
+        "target": "1.0.1"
+      }
+    }
+  }
